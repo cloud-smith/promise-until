@@ -1,0 +1,35 @@
+{
+  "name": "@cloud-smith/promise-until",
+  "version": "1.0.0",
+  "description": "Javascript promises you can cancel",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "pack": "npm pack",
+    "link": "npm link",
+    "test": "npx react-scripts test"
+  },
+  "author": "Neil A Smith (theneilmiester@gmail.com)",
+  "license": "ISC",
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloud-smith/promise-until.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloud-smith/promise-until/issues"
+  },
+  "homepage": "https://github.com/cloud-smith/promise-until-demo#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  }
+}
